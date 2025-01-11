@@ -1,4 +1,4 @@
-name: GitHub Actions Workflow
+name: GitHub Actions Workflows
 
 on:
   push:
@@ -16,3 +16,4 @@ jobs:
         run: |
           curl -X POST -H "Content-Type: application/json" \
           -d '{"event": "action"}' http://127.0.0.1:5000/webhook
+
