@@ -15,4 +15,4 @@ jobs:
       - name: Trigger webhook
         run: |
           curl -X POST -H "Content-Type: application/json" \
-          -d '{"event": "action"}' https://b6e5-2409-408c-be90-3ec1-f855-a7a0-5aed-8337.ngrok-free.app/webhook
+          -d '{"event": "action"}' http://127.0.0.1:5000/webhook
